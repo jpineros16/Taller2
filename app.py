@@ -39,8 +39,8 @@ def plot_series(data, initial_date, proy):
             name='Demanda energética',
             x = data_plot.index,
             y = data_plot['AT_load_actual_entsoe_transparency'],
-            mode='lines',
-            line=dict(color="#188463"),
+            mode = 'lines',
+            line = dict(color="#188463"),
         ),
         go.Scatter(
             name='Proyección',
